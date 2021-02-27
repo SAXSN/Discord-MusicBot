@@ -58,7 +58,7 @@ module.exports = {
                     views: String(songInfo.views).padStart(10, " "),
                     url: songInfo.url,
                     ago: songInfo.ago,
-                    duration: songInfo.duration.toString(),
+                    
                     img: songInfo.image,
                     req: message.author,
                 };
